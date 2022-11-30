@@ -11,9 +11,25 @@ In order to start your modding journey, you will need a few things. Listed below
 
 - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
 
+## Mod File Structure
+
+---
+
+- @Mod_Name
+  - Addons
+    - Mod.pbo
+  - mod_logo.paa
+  - meta.cpp
+  - mod.cpp
+
+---
+
 ## Config
 
 ---
+
+> File containing config must be named `config.cpp`
+> {: .prompt-tip }
 
 ```c++
 class CfgPatches
@@ -39,16 +55,5 @@ class CfgUnitInsignia
     };
 };
 ```
-
-```console
-$ env |grep SHELL
-SHELL=/usr/local/bin/bash
-PYENV_SHELL=bash
-```
-
-> File containing config must be named `config.cpp`
-
-> This wiki page is still under development.
-> {: .prompt-info }
 
 ---
