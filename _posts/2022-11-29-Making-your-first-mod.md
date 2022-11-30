@@ -2,28 +2,20 @@
 title: Making your first Arma 3 Mod
 date: 2022-11-29 12:00:00 -500
 categories: [Informational, Tutorial]
-tags: [informational, texturing]     # TAG names should always be lowercase
+tags: [informational, texturing] # TAG names should always be lowercase
 ---
-
-## Getting Started
 
 ## Required Tools
 
 In order to start your modding journey, you will need a few things. Listed below are the very basic tools required for starting your journey.
 
-> - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
-> - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
-> - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
-> - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
-> - [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
-
-## File structure
+- [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
 
 ## Config
 
 ---
 
-```C++
+```c++
 class CfgPatches
 {
     class PATCH_TEMPLATE
@@ -36,7 +28,6 @@ class CfgPatches
         authorUrl = ""; // Link to website/discord etc.
     };
 };
-
 class CfgUnitInsignia
 {
     class PATCH_1 // Class name of patch.
@@ -49,9 +40,15 @@ class CfgUnitInsignia
 };
 ```
 
+```console
+$ env |grep SHELL
+SHELL=/usr/local/bin/bash
+PYENV_SHELL=bash
+```
+
 > File containing config must be named `config.cpp`
 
 > This wiki page is still under development.
-{: .prompt-info }
+> {: .prompt-info }
 
 ---
