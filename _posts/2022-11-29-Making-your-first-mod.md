@@ -29,7 +29,7 @@ In order to start your modding journey, you will need a few things. Listed below
 ---
 
 > File containing config must be named `config.cpp`
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ```c++
 class CfgPatches
