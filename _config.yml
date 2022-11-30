@@ -19,9 +19,9 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Arma 3 Modding Wiki                          # the main title
+title: Arma 3 Modding Wiki (Un)                          # the main title
 
-tagline: A wiki for Arma 3 Modding   # it will display as the sub-title
+tagline: A wiki dedicated to Arma 3 modding.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -30,16 +30,16 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://ArmaWiki.github.io'
 
 github:
-  username: zSchlopp             # change to your github username
+  username: helix-studios             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Helix Studios
-  email: example@domain.com             # change to your email address
+  #email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username      # change to your twitter homepage
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://github.com/Helix-Studios/ArmaWiki-github-io/blob/main/assets/img/favicons/A3MW-Logo-v2.png?raw=true
 
 # boolean type, the global switch for ToC in posts.
 toc: true
