@@ -1,6 +1,6 @@
 ---
 title: Basic SQF Scripting
-date: 2022-12-02 12:00:00 -500
+date: 2022-12-01 12:00:00 -500
 categories: [Informational]
 tags: [informational] # TAG names should always be lowercase
 ---
