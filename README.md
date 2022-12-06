@@ -1,46 +1,15 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# Unofficial Arma 3 Modding Wiki
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+The `Unofficial Amra 3 Modding Wiki` is a work in progress!
 
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+## About
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+This is mostly an interal wiki for us to have documentation on how to mod Arma 3 (so we don’t forget anything), everything from a few re-textures to importing models and extened configs. Everything will eventually have a place here, we’re still learning ourselves and may not have the best practices or complete documentation so bear with.
 
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
-```
+## Why
 
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Despite being a old game with pretty big modding fanbase and teams, surprisingly, there is next to no recent or fully up to date documentation of a lot of Arma’s modding adn have to rely purely on Arma 3’s samples or finding someone willing to help you do the certain task you wish to do. We aim to create this so there is a more longer lasting documentation that people can find and go along without too much hassle. Yes, we also realise that a lot of things are possibly going redundant in the next few years with the next ArmA installment but we are a new full modding team to ArmA 3 simply going along our merry journey.
 
-## Prerequisites
+## Credits
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
-
-## Installation
-
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+This wiki was made using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) theme.
